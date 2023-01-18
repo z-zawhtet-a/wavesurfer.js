@@ -327,7 +327,7 @@ export class Region {
 
         const onProcess = (time) => {
             let start = Math.round(this.start * 10) / 10;
-            let end = Math.round(this.end * 10) / 10;
+            let end = (this.end * 10) / 10;
             time = Math.round(time * 10) / 10;
 
             if (
